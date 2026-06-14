@@ -11,6 +11,7 @@ $(document).ready(function () {
 
 $(document).on('click', function () {
     $('.myAudio').get(0).play();
+    console.log('masuk');
 });
 
 
