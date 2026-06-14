@@ -9,6 +9,10 @@ $(document).ready(function () {
     }, 2000);
 });
 
+$(document).on('click', function () {
+    $('.myAudio').get(0).play();
+});
+
 
 
 
